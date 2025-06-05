@@ -1,0 +1,42 @@
+@use "./variables" as*;
+// Organización y disposición general del sitio
+
+body {
+  font-family: $fuente-principal;
+  color: $color-fondo;
+  background-color: $color-verde-claro;
+}
+
+.banner {
+  background-image: url(../productos/IMG_1413.jpeg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  text-shadow: 4px 4px 17px rgba(0, 0, 0, 1);
+  padding: 130px 0;
+}
+
+.contenedor-grid {
+  display: grid;
+  grid-template-areas:
+    "titulo1 titulo2 titulo2 titulo3"
+    "img1 img2 img3 img4";
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100px 100px 100px 100px;
+  column-gap: 5px;
+  justify-content: center;
+  justify-items: center;
+
+  img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+.grid-titulo-1 { grid-area: titulo1; }
+.grid-img-1    { grid-area: img1; }
+.grid-titulo-2 { grid-area: titulo2; }
+.grid-img-2    { grid-area: img2; }
+.grid-img-3    { grid-area: img3; }
+.grid-titulo-3 { grid-area: titulo3; }
+.grid-img-4    { grid-area: img4; }

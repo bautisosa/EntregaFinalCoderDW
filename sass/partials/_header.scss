@@ -1,0 +1,20 @@
+@use "./variables" as*;
+// Estilos del header
+
+header img {
+  width: 100px;
+  margin: 8px;
+}
+
+.propia {
+  background-color: $color-fondo;
+
+  a {
+    color: $color-verde;
+    text-decoration: none;
+  }
+}
+
+li {
+  list-style: none;
+}
