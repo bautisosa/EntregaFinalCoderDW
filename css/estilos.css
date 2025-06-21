@@ -1,22 +1,4 @@
-@media (max-width: 480px) {
-  body {
-    background-color: #84AE92;
-  }
-  header {
-    flex-direction: column;
-  }
-  nav {
-    width: 100%;
-  }
-  .contenedor-grid {
-    grid-template-areas: "titulo1" "img1" "titulo2" "img2" "img3" "titulo3" "img4";
-    grid-template-columns: 1fr;
-    grid-template-rows: 70px repeat(7, auto);
-  }
-  .grid-img-3 {
-    display: none;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 header img {
   width: 100px;
   margin: 8px;
@@ -35,7 +17,7 @@ li {
 }
 
 body {
-  font-family: "Special Gothic Condensed One", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   color: #F8F5E9;
   background-color: #84AE92;
 }
@@ -140,4 +122,24 @@ footer {
   color: #328E6E;
   height: 200px;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+  header {
+    flex-direction: column;
+  }
+  nav {
+    width: 100%;
+  }
+  .contenedor-grid {
+    grid-template-areas: "titulo1" "img1" "titulo2" "img2" "img3" "titulo3" "img4";
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px repeat(7, auto);
+  }
+  .grid-img-3 {
+    display: none;
+  }
 }/*# sourceMappingURL=estilos.css.map */
