@@ -3,7 +3,7 @@
 
 @media (max-width: 480px) {
   body {
-    background-color: yellow;
+    background-color: $color-verde-claro;
   }
 
   header {
@@ -31,3 +31,40 @@
     display: none;
   }
 }
+
+// Estilos para tablets
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: $color-verde-claro;
+  }
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .contenedor-grid {
+    display: grid;
+    grid-template-areas:
+      "titulo1 titulo1"
+      "img1 img1"
+      "titulo2 titulo2"
+      "img2 img3"
+      "titulo3 titulo3"
+      "img4 img4";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
+    gap: 10px;
+  }
+
+  .grid-img-3 {
+    display: block;
+  }
+}
+
+
+
