@@ -30,6 +30,9 @@ body {
   text-shadow: 4px 4px 17px rgb(0, 0, 0);
   padding: 130px 0;
 }
+.banner:hover {
+  background-image: url(../productos/IMG_1342.jpeg);
+}
 
 .contenedor-grid {
   display: grid;
@@ -77,6 +80,33 @@ body {
 .beneficios {
   text-align: center;
   margin-top: 20px;
+  animation-name: efecto;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+  animation-delay: 2s;
+}
+.beneficios:hover {
+  color: #328E6E;
+  transition: 2s;
+}
+@keyframes efecto {
+  0% {
+    transform: scale(1);
+    background-color: #328E6E;
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+    background-color: #256851;
+  }
 }
 
 main img {
@@ -95,6 +125,10 @@ main img {
   text-align: center;
 }
 
+.boton:focus {
+  background-color: #328E6E;
+}
+
 .destacados {
   margin: 15px 0px;
 }
@@ -107,7 +141,7 @@ main img {
 .iphones, .fundas {
   width: 40%;
   height: 700px;
-  background: linear-gradient(90deg, rgb(42, 123, 155) 0%, rgb(87, 199, 133) 46%, rgb(237, 221, 83) 100%);
+  background: radial-gradient(circle, rgb(42, 155, 87) 0%, rgb(50, 142, 110) 49%, rgb(132, 174, 146) 100%);
   border-radius: 30px;
   margin: 30px 0px;
   padding: 30px 0px;
