@@ -154,7 +154,7 @@ main img {
 }
 
 .iphones, .fundas {
-  width: 40%;
+  width: 30%;
   height: 700px;
   background: radial-gradient(circle, rgb(42, 155, 87) 0%, rgb(50, 142, 110) 49%, rgb(132, 174, 146) 100%);
   border-radius: 30px;
