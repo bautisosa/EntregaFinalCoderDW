@@ -51,8 +51,12 @@ main img {
   justify-content: space-evenly;
   text-align: center;
 }
-.boton:focus{
+//extend
+.boton1:focus{
 background-color: $color-verde;
+}
+.boton2 {
+  @extend .boton1;
 }
 
 .destacados {

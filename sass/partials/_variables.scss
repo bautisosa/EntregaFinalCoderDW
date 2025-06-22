@@ -9,3 +9,11 @@ $color-fondo: #F8F5E9;
 // Tipografía
 
 $fuente-principal: "Bebas Neue", sans-serif ;
+
+//mixin
+@mixin flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}

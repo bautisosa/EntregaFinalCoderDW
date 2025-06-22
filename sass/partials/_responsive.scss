@@ -1,5 +1,5 @@
 @use "./variables" as*;
-// Estilos para dispositivos móviles
+// Estilos para mobile
 
 @media (max-width: 480px) {
   body {
@@ -64,6 +64,7 @@
   .grid-img-3 {
     display: block;
   }
+  // estilo para cards en mobile y tablet
 }
 @media (max-width: 768px) {
   .destacados {
