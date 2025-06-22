@@ -4,6 +4,7 @@ body {
   font-family: $fuente-principal;
   color: $color-fondo;
   background-color: $color-verde-claro;
+  
 }
 
 .banner {
@@ -32,7 +33,7 @@ body {
   img {
     width: 40%;
     height: auto;
-  }
+}
 }
 
 .grid-titulo-1 { grid-area: titulo1; }
@@ -42,3 +43,11 @@ body {
 .grid-img-3    { grid-area: img3; }
 .grid-titulo-3 { grid-area: titulo3; }
 .grid-img-4    { grid-area: img4; }
+
+.padre{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  overflow-x: hidden;
+  background-color: $color-verde;
+}

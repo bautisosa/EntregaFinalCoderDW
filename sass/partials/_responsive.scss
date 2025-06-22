@@ -65,6 +65,31 @@
     display: block;
   }
 }
+@media (max-width: 768px) {
+  .destacados {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .destacados div {
+    width: 100%;
+  }
+
+  .contenedor-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .contenedor-grid img,
+  .contenedor-grid h3 {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 
 

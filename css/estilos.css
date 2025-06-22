@@ -77,6 +77,14 @@ body {
   grid-area: img4;
 }
 
+.padre {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  overflow-x: hidden;
+  background-color: #328E6E;
+}
+
 .beneficios {
   text-align: center;
   margin-top: 20px;
@@ -197,5 +205,27 @@ footer {
   }
   .grid-img-3 {
     display: block;
+  }
+}
+@media (max-width: 768px) {
+  .destacados {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  .destacados div {
+    width: 100%;
+  }
+  .contenedor-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  .contenedor-grid img,
+  .contenedor-grid h3 {
+    width: 100%;
+    text-align: center;
   }
 }/*# sourceMappingURL=estilos.css.map */
